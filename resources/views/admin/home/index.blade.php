@@ -11,8 +11,8 @@
     <h4>O que deseja fazer?</h4>
 
     <ul>
-        <li><a href="#">Visualizar Ferramentas Cadastradas</a></li>
-        <li><a href="#">Cadastrar ferramentas</a></li>
-        <li><a href="#">Visualizar histórico</a></li>
+    <li><a href="{{ route('admin.ferramenta') }}">Visualizar Ferramentas Cadastradas</a></li>
+        <li><a href="#">Cadastrar Ferramentas</a></li>
+        <li><a href="#">Visualizar Histórico</a></li>
     </ul>
 @stop
