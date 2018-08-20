@@ -121,7 +121,7 @@ return [
         ],
         [
             'text'        => 'Visualizar Ferramentas',
-            'url'         => 'admin/ferramentas_Cadastradas',
+            'url'         => 'admin/ferramentas_cadastradas',
             'icon'        => 'archive',
         ],
         [

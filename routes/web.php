@@ -1,7 +1,7 @@
 <?php
 
 $this->group(['middleware' => ['auth'], 'namespace' => 'Admin', 'prefix' => 'admin'], function(){
-    $this->get('ferramentas_Cadastradas', 'FerramentaController@index')->name('admin.ferramenta');
+    $this->get('ferramentas_cadastradas', 'FerramentaController@index')->name('admin.ferramenta');
     
     $this->get('/', 'AdminController@index')->name('admin.home');
 });
